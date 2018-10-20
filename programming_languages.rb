@@ -8,6 +8,7 @@ def reformat_languages(languages)
   
   languages.each do |style, language_data|
     language_data.each do |language_name, type|
+      binding.pry
       new_hash[language_name][:style] = []
       
       # insert something here because the array is resetting to [] every time
@@ -19,5 +20,4 @@ def reformat_languages(languages)
     end
   end
   new_hash
-  binding.pry
 end
