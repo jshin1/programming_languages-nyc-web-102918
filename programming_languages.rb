@@ -11,6 +11,8 @@ def reformat_languages(languages)
       new_hash[language_name][:style] = []
       
       # insert something here because the array is resetting to [] every time
+      
+      
       if languages[style].has_key?(language_name)
         new_hash[language_name][:style] << style
       end
