@@ -21,4 +21,19 @@ def reformat_languages(languages)
   new_hash
 end
 
-def reformat
+def reformat_languages(languages)
+  
+  new_hash = {}
+  new_hash = languages[:oo].merge(languages[:functional])
+  
+  new_hash.each do |language_name, language_data|
+    
+
+
+
+
+
+
+
+
+end
