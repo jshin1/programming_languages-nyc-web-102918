@@ -9,6 +9,7 @@ def reformat_languages(languages)
     new_hash[language_name][:style] = []
     languages.each do |style, data|
       data.each do |language_name, language_type|
+        binding.pry
         if languages[style].has_key?(language_name)
           new_hash[language_name][:style] << style
         end
